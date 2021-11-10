@@ -2,6 +2,39 @@
 <!doctype html>
 <html lang="ru">
 <style>
+    .text{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    }
+    .images{
+    position relative;
+    float: left;
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 2%;
+    }
+    .imagestwo{
+    position relative;
+    float: left;
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 2%;
+    }
+    .imageslast{
+    position relative;
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 2%;
+    }
     .borderf{
     padding: 0px;
     border: 1px solid #DCDCDC;
@@ -9,27 +42,23 @@
     }
     .image{
     position: relative;
-    margin: 5px;
     float: right;
-    width: 640px;
-    height: 600px;
+    width: 50%;
+    max-height: 90%;
     }
     .first{
-    width: 1300px;
-    height: 600 px;
-    text-align: center ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    width: 60%;
+    min-height: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     background: #FFFFFF;
     color: black;
     }
     .headline{
     position: absolute;
     top: 0px;
-    height: 73px;
+    height: 100%;
     background-color: #eeeeee;
     width: 100%;
     z-index: -1;
@@ -61,15 +90,16 @@
 </head>
 
 <body style="background-color:#fbfbfd";>
-<h1 align="center" >ул. Фридриха Энгельса, 152</h1>
-<div class="first borderf">
+
+<div class="first borderf" style="background-color:#fbfbfd">
     <img src="https://01.img.avito.st/image/1/RAsN4bay6OI7SCrnCdQmQuJC6OStQOo" class="image" style="border: 0px; border-radius: 10px;" >
-    <h1 style="margin-top: 10px;" >Коттедж No.1</h1>
+    <h1 style="margin-top: 10px;" align="center" >Коттедж No.1</h1>
+    <h3 align="center" >ул. Фридриха Энгельса, 152</h3>
     <br>
-    <h5>Дом находится не далеко
+    <h5 style="margin-left: 1%">Дом находится не далеко
         от ул.Красная </h5>
 
-<h6 align="left" style="margin: 5px;">
+<h6 align="left" style="margin: 1%; margin-bottom: 2%">
  При входе во двор вы обратите внимание на бассейн, огромную зону под навесом, которая подсвечивается неоновыми лентами ночью.
 <br> <br>
  Далее находится не просто мангал с шампурами, а отдельная мангальная зона с просторными столами и отдельной раковиной для комфортного приготовления блюд на огне.
@@ -86,14 +116,14 @@
 
         </h6>
 </div>
-<div>
-    <img src="https://86.img.avito.st/image/1/WzE_xray99gJbzXdBb8eeNBl996fZ_U" style="position: relative; padding: 5px; margin: 5px; width: 415px; height: 300px; top: 650px; margin-left: 305px;">
-    <img src="https://47.img.avito.st/image/1/xt2b3LayajStdagxm7-Qin5_ajI7fWg" style="position: relative; padding: 5px; margin: 5px; width: 415px; height: 300px; top: 650px; margin-left: 10px;">
-    <img src="https://70.img.avito.st/image/1/X7YeMbay818omDFaLEAa__GS81m-kPE" style="position: relative; padding: 5px; margin: 5px; width: 415px; height: 300px; top: 650px; margin-left: 10px;">
+<div style="background-color:#fbfbfd">
+    <img src="http://kartina-optom.com.ua/images/stories/virtuemart/product/50х50.jpg" class="images">
+    <img src="http://kartina-optom.com.ua/images/stories/virtuemart/product/50х50.jpg" class="imagestwo">
+    <img src="http://kartina-optom.com.ua/images/stories/virtuemart/product/50х50.jpg" class="imageslast">
 </div>
-<div align="center" style="position: relative; padding: 5px; top: 700px; margin-bottom: 500px;">
-    <H1>Для заказа пишите в директ инстаграм</H1>
-    <h1 style="padding: 80px; font-family: Noto Sans, sans-serif; font-size:4vw;">lionroom.krd</h1>
+<div class="text" style="background-color:#fbfbfd">
+<H1>Для заказа пишите в директ инстаграм</H1>
+<h1 style="padding: 3%; font-family: Noto Sans, sans-serif; font-size:4vw;">lionroom.krd</h1>
 </div>
 </body>
 </html>
